@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+.navbar .inp{
+    border-bottom: 2px solid blue;
+    margin-top: 22px;
+}
+.navbar .inp input{
+    border: none;
+    font-size: 15px;
+}
+.navbar .inp i{
+    margin-inline: 1px;
+}
+.navbar img{
+    width: 20%;
+}
+.navbar .icon i {
+    font-size: 40px;
+    margin-top: 29px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    border: 1px solid rgb(239, 233, 233);
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    margin-top: 11px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+}
+nav p:hover{
+    color: gray;
+    font-weight: 600px;
+}
+
+.main {
+    text-align: center;
+}
+.main image{
+    width: 95%;
+}
+
+.head{
+    margin-top: 13px;
+    margin-left: 24px;
+    padding: 22px;
+}
+
+.card {
+    text-align: center;
+}
+.card img{
+    width: 24%;
+}
+.deal{
+    text-align: center;
+}
+.deal img{
+    width: 95%;
+    margin-top: 33px;
+}
+.img-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.img-card img{
+    width: 48%;
+}
+.mk-card{
+    display: flex;
+    justify-content: center;
+}
+.mk-card img{
+    width: 33%;
+}
+.sugar{
+    text-align: center;
+}
+.sugar img{
+    width: 95%;
+    margin-top: 22px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(243, 237, 237);
+    padding: 44px;
+    margin: 33px;
+}
