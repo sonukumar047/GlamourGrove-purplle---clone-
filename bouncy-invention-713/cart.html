@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cart-navbar{
+            display: flex;
+            justify-content: space-around;
+            background-color: aqua;
+        }
+        button{
+            border: none;
+            background-color: yellow;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            border-radius: 0.5rem;
+            font-weight: bold;
+        }
+        #cart-container>div>button{
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- after navbar -->
+
+    <!-- cart starts from here --->
+    <div class="cart-navbar">
+        <h2>Total Price - <span id="totalPriceSpan">0</span></h2>
+        <button id="payment_button">Payment Page</button>
+    </div>
+
+    <div class="cart-container"></div>
+</body>
+</html>
+<script src="./scripts/cart.js"></script>
