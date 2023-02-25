@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5089e6484a.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            margin-top: 11px;
+        }
+
+        .navbar .inp {
+            /* border-bottom: 2px solid blue; */
+            margin-top: 22px;
+        }
+
+        .navbar .inp input {
+            border: none;
+            border-bottom: 2px solid blue;
+            font-size: 18px;
+        }
+
+        .navbar .inp i {
+            margin-inline: 10px;
+        }
+
+        .navbar img {
+            width: 8%;
+        }
+
+        .navbar .icon i {
+            font-size: 40px;
+            margin: 12px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            padding: 11px;
+            border: 1px solid rgb(239, 233, 233);
+            border-left: none;
+            border-right: none;
+            cursor: pointer;
+            margin-top: 11px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            font-size: 18px;
+        }
+
+        nav p:hover {
+            color: gray;
+            font-weight: 600px;
+        }
+
+        .products_div {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            padding: 2rem;
+        }
+
+        .products_div>div {
+            background-color: teal;
+            margin: 1rem;
+            text-align: center;
+            padding: 0.5rem;
+            border-radius: 8px;
+        }
+
+        h3,
+        p {
+            margin-bottom: 0.3rem;
+            color: #fff;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            border-radius: 8px;
+            border: none;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="inp">
+            <input type="text" placeholder="What are you looking for?">
+        </div>
+        <img src="../img/plogo.png" alt="">
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-sharp fa-regular fa-face-smile"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </div>
+
+    <nav>
+        <p style="color:black">SHOP CATEGORIES</p>
+        <p style="color:black">BRANDS</p>
+        <p style="color:black">OFFERS</p>
+        <p style="color:black">NEW</p>
+        <p style="color:black">SPLURGE</p>
+        <p style="color:black">MAGAZINE</p>
+        <p style="color:black">ELITE OFFERS</p>
+    </nav>
+
+    <!-- products -->
+    <div class="products_div">
+        <!-- <div>
+            <img src="https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-iPhone-14-Plus-hero-220907-geo.jpg.news_app_ed.jpg" alt="">
+            <h3>iphone 14</h3>
+            <p>Price-70000</p>
+            <p>Brand-Apple</p>
+            <button>Add To Cart</button>
+            <button>Buy</button>
+        </div> -->
+    </div>
+</body>
+
+</html>
+<script src="./scripts/product.js"></script>
