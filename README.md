@@ -13,7 +13,7 @@ The project structure is organized as follows:
 - `README.md`: This readme file providing an overview of the project.
 
 ## Description
-It is an e-commerce website where users can purchase beauty and cosmetic products. It was created using HTML, CSS, and JavaScript, and it includes the following features:
+GlamourGrove (purplle - clone), It is an e-commerce website where users can purchase beauty and cosmetic products. It was created using HTML, CSS, and JavaScript, and it includes the following features:
 
 - A navigation bar at the top of the page with a search input field, search button, user icons, and a logo.
 - A navigation menu containing shop categories, brands, offers, and more.
